@@ -1,35 +1,43 @@
-Overview:::
-This project implements a 16-bit RISC processor using Verilog HDL.
-The processor consists of basic components such as ALU, Register File, Control Unit, Instruction Memory, Data Memory, and Datapath.
+# 16-bit RISC Processor (Verilog)
+## Overview
 
-The design is simulated using ModelSim (Intel FPGA Edition).
+This project implements a **16-bit RISC processor** designed using **Verilog HDL**.  
+The processor includes core architectural components such as the ALU, Register File, Control Unit, Instruction Memory, and Data Memory.
 
-Architecture Components:
+The design follows a basic single-cycle datapath architecture and is simulated using **ModelSim (Intel FPGA Edition)**.
 
-Program Counter (PC)
-Instruction Memory
-Control Unit
-Register File (16 registers × 16-bit)
-Arithmetic Logic Unit (ALU)
-Sign Extend Unit
-Data Memory
+## Architecture Components
 
-Supported ALU Operations:
-Opcode	Operation
-0000	ADD
-0001	SUB
-0010	AND
-0011	OR
-0100	SHIFT LEFT
+- Program Counter (PC)
+- Instruction Memory
+- Control Unit
+- Register File (16 registers × 16-bit)
+- Arithmetic Logic Unit (ALU)
+- Sign Extend Unit
+- Data Memory
+- Datapath
 
-Simulation Tool:
+## Supported ALU Operations
+
+| Opcode | Operation |
+|------|-----------|
+| 0000 | ADD |
+| 0001 | SUB |
+| 0010 | AND |
+| 0011 | OR |
+| 0100 | SHIFT LEFT |
+
+## Simulation Tool
+
 ModelSim – Intel FPGA Edition
 
-How to Run:
-Compile the Design
+## How to Run
+
+### Compile the Design
 
 vlib work
 vmap work work
+
 vlog RegisterFile.v
 vlog MUX4_1.v
 vlog REG4BITTEST.v
@@ -48,10 +56,10 @@ vlog ADDER.v
 vlog InstructionMemory.v
 vlog ProcessorTEST.v
 
-Run Simulation:
+### Run Simulation
 
 vsim work.ProcessorTEST
 add wave -r /*
 run -all
 
-Kalyan Jakkoju
+Kalyan Jakkoju 
