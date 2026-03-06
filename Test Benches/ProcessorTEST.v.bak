@@ -1,0 +1,59 @@
+`timescale 1ns / 1ps
+`include "../Modules/Datapath.v"
+
+module ProcessorTEST;
+
+    // ----------------------------
+    // Signals
+    // ----------------------------
+    reg CLK;
+    reg RESET;
+
+    // ----------------------------
+    // Instantiate the Datapath
+    // ----------------------------
+    Datapath uut (
+        .CLK(CLK),
+        .RESET(RESET)
+    );
+
+    // ----------------------------
+    // Clock Generation (20ns Period)
+    // ----------------------------
+    initial begin
+        CLK = 1'b0;
+        forever #10 CLK = ~CLK;  // 50 MHz clock
+    end
+
+    // ----------------------------
+    // Reset and Simulation Control
+    // ----------------------------
+    initial begin
+        $display("------------------------------------------------");
+        $display(" Starting Simulation of 16-bit RISC Processor ");
+        $display("------------------------------------------------");
+
+        RESET = 1'b1;
+        #25 RESET = 1'b0;   // Deassert reset after 25ns
+
+        // Run the simulation for 2000ns
+        #2000;
+        $display("------------------------------------------------");
+        $display(" Simulation Complete. Inspect the Waveform. ");
+        $display("------------------------------------------------");
+        $stop;
+    end
+
+    // ----------------------------
+    // Real-time Monitoring
+    // ----------------------------
+    initial begin
+        $monitor("Time=%0t | PC=%h | Opcode=%b | ALUResult=%h | Zero=%b",
+                 $time,
+                 uut.pc,
+                 uut.opcode,
+                 uut.aluResult,
+                 uut.zeroFlag);
+    end
+
+endmodule

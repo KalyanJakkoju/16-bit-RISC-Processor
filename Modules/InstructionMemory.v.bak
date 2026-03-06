@@ -1,0 +1,21 @@
+// Small instruction memory: combinational read. Address is word-address (4 LSBs used).
+module InstructionMemory (
+    input  [15:0] insAddr,
+    output reg [15:0] out
+);
+    reg [15:0] ins [0:15];
+
+    initial begin
+        initial begin
+    // Example program (you can modify)
+    ins[0] = 16'b0001000100100011; // Example: opcode=0001, rs=0001, rt=0010, rd=0011
+    ins[1] = 16'b0010001101000100; // opcode=0010, etc.
+    ins[2] = 16'b0100000000000000; // HALT or NOP instruction
+end
+
+    end
+
+    always @(*) begin
+        out = ins[insAddr[3:0]]; // use lower 4 bits as index (16 words)
+    end
+endmodule

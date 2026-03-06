@@ -1,0 +1,132 @@
+C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/RegisterFile.v {2 {vlog -work work -stats=none C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/RegisterFile.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RegisterFile
+** Warning: C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/RegisterFile.v(23): (vlog-2182) 'REG16BIT' might be read before written in always_comb or always @* block.
+
+Top level modules:
+	RegisterFile
+
+} {} {}} C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/MUX4_1.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/MUX4_1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux1
+
+Top level modules:
+	mux1
+
+} {} {}} {C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Test Benches/REG4BITTEST.v} {1 {vlog -work work -stats=none {C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Test Benches/REG4BITTEST.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module REG4BIT
+-- Compiling module REG4BITTEST
+
+Top level modules:
+	REG4BITTEST
+
+} {} {}} C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/CU.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/CU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CU
+
+Top level modules:
+	CU
+
+} {} {}} {C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Test Benches/ALUTEST.v} {1 {vlog -work work -stats=none {C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Test Benches/ALUTEST.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ALU
+-- Compiling module ALUTEST
+
+Top level modules:
+	ALUTEST
+
+} {} {}} C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/signExtend.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/signExtend.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module signExtend
+
+Top level modules:
+	signExtend
+
+} {} {}} C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/REG4BIT.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/REG4BIT.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module REG4BIT
+
+Top level modules:
+	REG4BIT
+
+} {} {}} C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/ALU.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/ALU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/DataMemory.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/DataMemory.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module DataMemory
+
+Top level modules:
+	DataMemory
+
+} {} {}} C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/REG16BIT.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/REG16BIT.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module REG16BIT
+
+Top level modules:
+	REG16BIT
+
+} {} {}} C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/2X1MUX.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/2X1MUX.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux_2X1
+
+Top level modules:
+	mux_2X1
+
+} {} {}} C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/MuxAddr.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/MuxAddr.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux_2X1Addr
+
+Top level modules:
+	mux_2X1Addr
+
+} {} {}} {C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Test Benches/MUX4_1TEST.v} {1 {vlog -work work -stats=none {C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Test Benches/MUX4_1TEST.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux1
+-- Compiling module stimulus
+
+Top level modules:
+	mux1
+	stimulus
+
+} {} {}} C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/Datapath.v {2 {vlog -work work -stats=none C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/Datapath.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ALU
+-- Compiling module DataMemory
+-- Compiling module InstructionMemory
+-- Compiling module mux1
+-- Compiling module REG4BIT
+-- Compiling module REG16BIT
+-- Compiling module RegisterFile
+** Warning: RegisterFile.v(23): (vlog-2182) 'REG16BIT' might be read before written in always_comb or always @* block.
+-- Compiling module signExtend
+-- Compiling module CU
+-- Compiling module ADDER
+-- Compiling module Datapath
+
+Top level modules:
+	mux1
+	REG4BIT
+	REG16BIT
+	Datapath
+
+} {} {}} C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/ADDER.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/ADDER.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ADDER
+
+Top level modules:
+	ADDER
+
+} {} {}} C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/InstructionMemory.v {1 {vlog -work work -stats=none C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/InstructionMemory.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module InstructionMemory
+
+Top level modules:
+	InstructionMemory
+
+} {} {}}

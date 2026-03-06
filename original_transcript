@@ -1,0 +1,838 @@
+# Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# Loading project 16bit_RISC
+# Compile of signExtend.v was successful.
+# Compile of 2X1MUX.v was successful.
+# Compile of MuxAddr.v was successful.
+# Compile of MUX4_1.v was successful.
+# Compile of ADDER.v was successful.
+# Compile of ALU.v was successful.
+# Compile of REG4BIT.v was successful.
+# Compile of REG16BIT.v was successful.
+# Compile of RegisterFile.v was successful with warnings.
+# Compile of DataMemory.v was successful.
+# Compile of InstructionMemory.v was successful.
+# Compile of CU.v was successful.
+# Compile of Datapath.v was successful with warnings.
+# Compile of ALUTEST.v failed with 1 errors.
+# Compile of REG4BITTEST.v failed with 1 errors.
+# Compile of MUX4_1TEST.v failed with 1 errors.
+# 16 compiles, 3 failed with 3 errors.
+# Compile of signExtend.v was successful.
+# Compile of 2X1MUX.v was successful.
+# Compile of MuxAddr.v was successful.
+# Compile of MUX4_1.v was successful.
+# Compile of ADDER.v was successful.
+# Compile of ALU.v was successful.
+# Compile of REG4BIT.v was successful.
+# Compile of REG16BIT.v was successful.
+# Compile of RegisterFile.v was successful with warnings.
+# Compile of DataMemory.v was successful.
+# Compile of InstructionMemory.v was successful.
+# Compile of CU.v was successful.
+# Compile of Datapath.v was successful with warnings.
+# Compile of ALUTEST.v failed with 1 errors.
+# Compile of REG4BITTEST.v failed with 1 errors.
+# Compile of MUX4_1TEST.v failed with 1 errors.
+# 16 compiles, 3 failed with 3 errors.
+# Compile of signExtend.v was successful.
+# Compile of 2X1MUX.v was successful.
+# Compile of MuxAddr.v was successful.
+# Compile of MUX4_1.v was successful.
+# Compile of ADDER.v was successful.
+# Compile of ALU.v was successful.
+# Compile of REG4BIT.v was successful.
+# Compile of REG16BIT.v was successful.
+# Compile of RegisterFile.v was successful with warnings.
+# Compile of DataMemory.v was successful.
+# Compile of InstructionMemory.v was successful.
+# Compile of CU.v was successful.
+# Compile of Datapath.v was successful with warnings.
+# Compile of ALUTEST.v failed with 1 errors.
+# Compile of REG4BITTEST.v failed with 1 errors.
+# Compile of MUX4_1TEST.v failed with 1 errors.
+# 16 compiles, 3 failed with 3 errors.
+# Compile of signExtend.v was successful.
+# Compile of 2X1MUX.v was successful.
+# Compile of MuxAddr.v was successful.
+# Compile of MUX4_1.v was successful.
+# Compile of ADDER.v was successful.
+# Compile of ALU.v was successful.
+# Compile of REG4BIT.v was successful.
+# Compile of REG16BIT.v was successful.
+# Compile of RegisterFile.v was successful with warnings.
+# Compile of DataMemory.v was successful.
+# Compile of InstructionMemory.v was successful.
+# Compile of CU.v was successful.
+# Compile of Datapath.v was successful with warnings.
+# Compile of ALUTEST.v failed with 1 errors.
+# Compile of REG4BITTEST.v failed with 1 errors.
+# Compile of MUX4_1TEST.v failed with 1 errors.
+# 16 compiles, 3 failed with 3 errors.
+vlib work
+# ** Warning: (vlib-34) Library already exists at "work".
+vmap work work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work work 
+# Modifying C:/intelFPGA/18.1/16bit_RISC.mpf
+vlog ../Modules/ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:41:34 on Oct 23,2025
+# vlog -reportprogress 300 ../Modules/ALU.v 
+# ** Error: (vlog-7) Failed to open design unit file "../Modules/ALU.v" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 18:41:34 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+vlog ../Modules/REG4BIT.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:41:34 on Oct 23,2025
+# vlog -reportprogress 300 ../Modules/REG4BIT.v 
+# ** Error: (vlog-7) Failed to open design unit file "../Modules/REG4BIT.v" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 18:41:34 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+vlog ../Modules/MUX4_1.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:41:34 on Oct 23,2025
+# vlog -reportprogress 300 ../Modules/MUX4_1.v 
+# ** Error: (vlog-7) Failed to open design unit file "../Modules/MUX4_1.v" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 18:41:34 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+vlog ALUTEST.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:41:34 on Oct 23,2025
+# vlog -reportprogress 300 ALUTEST.v 
+# ** Error: (vlog-7) Failed to open design unit file "ALUTEST.v" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 18:41:34 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+vlog REG4BITTEST.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:41:34 on Oct 23,2025
+# vlog -reportprogress 300 REG4BITTEST.v 
+# ** Error: (vlog-7) Failed to open design unit file "REG4BITTEST.v" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 18:41:34 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+vlog MUX4_1TEST.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:41:34 on Oct 23,2025
+# vlog -reportprogress 300 MUX4_1TEST.v 
+# ** Error: (vlog-7) Failed to open design unit file "MUX4_1TEST.v" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 18:41:35 on Oct 23,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+
+# Compile of signExtend.v was successful.
+# Compile of 2X1MUX.v was successful.
+# Compile of MuxAddr.v was successful.
+# Compile of MUX4_1.v was successful.
+# Compile of ADDER.v was successful.
+# Compile of ALU.v was successful.
+# Compile of REG4BIT.v was successful.
+# Compile of REG16BIT.v was successful.
+# Compile of RegisterFile.v was successful with warnings.
+# Compile of DataMemory.v was successful.
+# Compile of InstructionMemory.v was successful.
+# Compile of CU.v was successful.
+# Compile of Datapath.v was successful with warnings.
+# Compile of ALUTEST.v was successful.
+# Compile of REG4BITTEST.v was successful.
+# Compile of MUX4_1TEST.v was successful.
+# 16 compiles, 0 failed with no errors.
+vsim -gui work.ALUTEST work.MUX4_1TEST work.REG4BITTEST
+# vsim -gui work.ALUTEST work.MUX4_1TEST work.REG4BITTEST 
+# Start time: 18:59:19 on Oct 23,2025
+# Loading work.ALUTEST
+# Loading work.ALU
+# Loading work.MUX4_1TEST
+# ** Error: (vsim-3033) C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Test Benches/MUX4_1TEST.v(10): Instantiation of 'MUX4_1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /MUX4_1TEST File: C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Test Benches/MUX4_1TEST.v
+#         Searched libraries:
+#             C:/intelFPGA/18.1/work
+# Loading work.REG4BITTEST
+# Loading work.REG4BIT
+# Error loading design
+# End time: 18:59:19 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlib work
+# ** Warning: (vlib-34) Library already exists at "work".
+vmap work work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work work 
+# Modifying C:/intelFPGA/18.1/16bit_RISC.mpf
+
+# Compile design modules first
+vlog "../Modules/ALU.v"
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:02:23 on Oct 23,2025
+# vlog -reportprogress 300 ../Modules/ALU.v 
+# ** Error: (vlog-7) Failed to open design unit file "../Modules/ALU.v" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 19:02:24 on Oct 23,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+vlog "../Modules/REG4BIT.v"
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:02:24 on Oct 23,2025
+# vlog -reportprogress 300 ../Modules/REG4BIT.v 
+# ** Error: (vlog-7) Failed to open design unit file "../Modules/REG4BIT.v" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 19:02:24 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+vlog "../Modules/MUX4_1.v"
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:02:24 on Oct 23,2025
+# vlog -reportprogress 300 ../Modules/MUX4_1.v 
+# ** Error: (vlog-7) Failed to open design unit file "../Modules/MUX4_1.v" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 19:02:24 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+
+# Then compile testbenches
+vlog "../Test Benches/ALUTEST.v"
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:02:24 on Oct 23,2025
+# vlog -reportprogress 300 ../Test Benches/ALUTEST.v 
+# ** Error: (vlog-7) Failed to open design unit file "../Test Benches/ALUTEST.v" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 19:02:24 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+vlog "../Test Benches/REG4BITTEST.v"
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:02:24 on Oct 23,2025
+# vlog -reportprogress 300 ../Test Benches/REG4BITTEST.v 
+# ** Error: (vlog-7) Failed to open design unit file "../Test Benches/REG4BITTEST.v" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 19:02:24 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+vlog "../Test Benches/MUX4_1TEST.v"
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:02:24 on Oct 23,2025
+# vlog -reportprogress 300 ../Test Benches/MUX4_1TEST.v 
+# ** Error: (vlog-7) Failed to open design unit file "../Test Benches/MUX4_1TEST.v" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 19:02:24 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+
+cd C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/
+# reading C:/intelFPGA/18.1/modelsim_ase/win32aloem/../modelsim.ini
+
+vlib work
+vlog -reportprogress 300 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/2X1MUX.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:06:21 on Oct 23,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/2X1MUX.v 
+# -- Compiling module mux_2X1
+# 
+# Top level modules:
+# 	mux_2X1
+# End time: 19:06:21 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/ADDER.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:06:21 on Oct 23,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/ADDER.v 
+# -- Compiling module ADDER
+# 
+# Top level modules:
+# 	ADDER
+# End time: 19:06:21 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:06:21 on Oct 23,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 19:06:21 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/CU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:06:21 on Oct 23,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/CU.v 
+# -- Compiling module CU
+# 
+# Top level modules:
+# 	CU
+# End time: 19:06:21 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/DataMemory.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:06:21 on Oct 23,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/DataMemory.v 
+# -- Compiling module DataMemory
+# 
+# Top level modules:
+# 	DataMemory
+# End time: 19:06:21 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/Datapath.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:06:21 on Oct 23,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/Datapath.v 
+# -- Compiling module ALU
+# -- Compiling module DataMemory
+# -- Compiling module InstructionMemory
+# -- Compiling module mux1
+# -- Compiling module REG4BIT
+# -- Compiling module REG16BIT
+# -- Compiling module RegisterFile
+# ** Warning: C:\intelFPGA\18.1\16-bit-RISC-processor-master\16-bit-RISC-processor-master\Modules\RegisterFile.v(23): (vlog-2182) 'REG16BIT' might be read before written in always_comb or always @* block.
+# -- Compiling module signExtend
+# -- Compiling module CU
+# -- Compiling module ADDER
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	mux1
+# 	REG4BIT
+# 	REG16BIT
+# 	Datapath
+# End time: 19:06:21 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vlog -reportprogress 30 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/InstructionMemory.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:06:22 on Oct 23,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/InstructionMemory.v 
+# -- Compiling module InstructionMemory
+# 
+# Top level modules:
+# 	InstructionMemory
+# End time: 19:06:22 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/MUX4_1.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:06:22 on Oct 23,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/MUX4_1.v 
+# -- Compiling module mux1
+# 
+# Top level modules:
+# 	mux1
+# End time: 19:06:22 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/MuxAddr.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:06:22 on Oct 23,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/MuxAddr.v 
+# -- Compiling module mux_2X1Addr
+# 
+# Top level modules:
+# 	mux_2X1Addr
+# End time: 19:06:22 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/REG4BIT.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:06:22 on Oct 23,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/REG4BIT.v 
+# -- Compiling module REG4BIT
+# 
+# Top level modules:
+# 	REG4BIT
+# End time: 19:06:22 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/REG16BIT.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:06:22 on Oct 23,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/REG16BIT.v 
+# -- Compiling module REG16BIT
+# 
+# Top level modules:
+# 	REG16BIT
+# End time: 19:06:22 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/RegisterFile.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:06:22 on Oct 23,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/RegisterFile.v 
+# -- Compiling module RegisterFile
+# ** Warning: C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/RegisterFile.v(23): (vlog-2182) 'REG16BIT' might be read before written in always_comb or always @* block.
+# 
+# Top level modules:
+# 	RegisterFile
+# End time: 19:06:22 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vlog -reportprogress 30 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/signExtend.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:06:22 on Oct 23,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/signExtend.v 
+# -- Compiling module signExtend
+# 
+# Top level modules:
+# 	signExtend
+# End time: 19:06:22 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlib work
+# ** Warning: (vlib-34) Library already exists at "work".
+vmap work work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work work 
+# Copying C:/intelFPGA/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+
+vlog "Modules/ALU.v"
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:06:58 on Oct 23,2025
+# vlog -reportprogress 300 Modules/ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 19:06:58 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog "Modules/REG4BIT.v"
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:06:58 on Oct 23,2025
+# vlog -reportprogress 300 Modules/REG4BIT.v 
+# -- Compiling module REG4BIT
+# 
+# Top level modules:
+# 	REG4BIT
+# End time: 19:06:58 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog "Modules/MUX4_1.v"
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:06:58 on Oct 23,2025
+# vlog -reportprogress 300 Modules/MUX4_1.v 
+# -- Compiling module mux1
+# 
+# Top level modules:
+# 	mux1
+# End time: 19:06:58 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+vlog "Test Benches/ALUTEST.v"
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:06:58 on Oct 23,2025
+# vlog -reportprogress 300 Test Benches/ALUTEST.v 
+# -- Compiling module ALU
+# -- Compiling module ALUTEST
+# 
+# Top level modules:
+# 	ALUTEST
+# End time: 19:06:58 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog "Test Benches/REG4BITTEST.v"
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:06:58 on Oct 23,2025
+# vlog -reportprogress 300 Test Benches/REG4BITTEST.v 
+# -- Compiling module REG4BIT
+# -- Compiling module REG4BITTEST
+# 
+# Top level modules:
+# 	REG4BITTEST
+# End time: 19:06:58 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog "Test Benches/MUX4_1TEST.v"
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:06:58 on Oct 23,2025
+# vlog -reportprogress 300 Test Benches/MUX4_1TEST.v 
+# -- Compiling module mux1
+# -- Compiling module MUX4_1TEST
+# 
+# Top level modules:
+# 	mux1
+# 	MUX4_1TEST
+# End time: 19:06:59 on Oct 23,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+
+vsim work.ALUTEST
+# vsim work.ALUTEST 
+# Start time: 19:07:11 on Oct 23,2025
+# Loading work.ALUTEST
+# Loading work.ALU
+# ** Warning: (vsim-3017) Test Benches/ALUTEST.v(10): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUTEST/alu File: Test Benches/../Modules/ALU.v
+# ** Warning: (vsim-3722) Test Benches/ALUTEST.v(10): [TFMPC] - Missing connection for port 'zero'.
+run -all
+# a=    1, b=    1
+# op=000, OUTPUT=0000000000000010
+# op=001, OUTPUT=0000000000000000
+# op=010, OUTPUT=0000000000000001
+# op=011, OUTPUT=0000000000000001
+# op=111, OUTPUT=0000000000000001
+
+cd C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+vlib work
+# ** Warning: (vlib-34) Library already exists at "work".
+vmap work work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work work 
+# Modifying modelsim.ini
+
+vlog "Modules/ALU.v"
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:08:34 on Oct 23,2025
+# vlog -reportprogress 300 Modules/ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 19:08:34 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog "Modules/REG4BIT.v"
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:08:34 on Oct 23,2025
+# vlog -reportprogress 300 Modules/REG4BIT.v 
+# -- Compiling module REG4BIT
+# 
+# Top level modules:
+# 	REG4BIT
+# End time: 19:08:34 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog "Modules/MUX4_1.v"
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:08:34 on Oct 23,2025
+# vlog -reportprogress 300 Modules/MUX4_1.v 
+# -- Compiling module mux1
+# 
+# Top level modules:
+# 	mux1
+# End time: 19:08:34 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+vlog "Test Benches/ALUTEST.v"
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:08:34 on Oct 23,2025
+# vlog -reportprogress 300 Test Benches/ALUTEST.v 
+# -- Compiling module ALU
+# -- Compiling module ALUTEST
+# 
+# Top level modules:
+# 	ALUTEST
+# End time: 19:08:35 on Oct 23,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog "Test Benches/REG4BITTEST.v"
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:08:35 on Oct 23,2025
+# vlog -reportprogress 300 Test Benches/REG4BITTEST.v 
+# -- Compiling module REG4BIT
+# -- Compiling module REG4BITTEST
+# 
+# Top level modules:
+# 	REG4BITTEST
+# End time: 19:08:35 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog "Test Benches/MUX4_1TEST.v"
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:08:35 on Oct 23,2025
+# vlog -reportprogress 300 Test Benches/MUX4_1TEST.v 
+# -- Compiling module mux1
+# -- Compiling module MUX4_1TEST
+# 
+# Top level modules:
+# 	mux1
+# 	MUX4_1TEST
+# End time: 19:08:35 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+vsim work.ALUTEST
+# End time: 19:08:40 on Oct 23,2025, Elapsed time: 0:01:29
+# Errors: 1, Warnings: 2
+# vsim work.ALUTEST 
+# Start time: 19:08:40 on Oct 23,2025
+# Loading work.ALUTEST
+# Loading work.ALU
+# ** Warning: (vsim-3017) Test Benches/ALUTEST.v(10): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUTEST/alu File: Test Benches/../Modules/ALU.v
+# ** Warning: (vsim-3722) Test Benches/ALUTEST.v(10): [TFMPC] - Missing connection for port 'zero'.
+add wave *
+run -all
+# a=    1, b=    1
+# op=000, OUTPUT=0000000000000010
+# op=001, OUTPUT=0000000000000000
+# op=010, OUTPUT=0000000000000001
+# op=011, OUTPUT=0000000000000001
+# op=111, OUTPUT=0000000000000001
+
+vsim work.MUX4_1TEST
+# End time: 19:09:33 on Oct 23,2025, Elapsed time: 0:00:53
+# Errors: 0, Warnings: 2
+# vsim work.MUX4_1TEST 
+# Start time: 19:09:33 on Oct 23,2025
+# Loading work.MUX4_1TEST
+# ** Error: (vsim-3033) Test Benches/MUX4_1TEST.v(10): Instantiation of 'MUX4_1' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /MUX4_1TEST File: Test Benches/MUX4_1TEST.v
+#         Searched libraries:
+#             C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/work
+# Error loading design
+add wave *
+# End time: 19:09:37 on Oct 23,2025, Elapsed time: 0:00:04
+# Errors: 1, Warnings: 0
+run -all
+# No Design Loaded!
+vlib work
+# ** Warning: (vlib-34) Library already exists at "work".
+vmap work work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work work 
+# Modifying modelsim.ini
+vlog "C:/intelFPGA/18.1/16-bit-RISC-processor-master/Modules/MUX4_1.v"
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:14:27 on Oct 23,2025
+# vlog -reportprogress 300 C:/intelFPGA/18.1/16-bit-RISC-processor-master/Modules/MUX4_1.v 
+# ** Error: (vlog-7) Failed to open design unit file "C:/intelFPGA/18.1/16-bit-RISC-processor-master/Modules/MUX4_1.v" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 19:14:27 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+vlog "C:/intelFPGA/18.1/16-bit-RISC-processor-master/Test Benches/MUX4_1TEST.v"
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:14:27 on Oct 23,2025
+# vlog -reportprogress 300 C:/intelFPGA/18.1/16-bit-RISC-processor-master/Test Benches/MUX4_1TEST.v 
+# ** Error: (vlog-7) Failed to open design unit file "C:/intelFPGA/18.1/16-bit-RISC-processor-master/Test Benches/MUX4_1TEST.v" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 19:14:27 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/intelFPGA/18.1/modelsim_ase/win32aloem/vlog failed.
+vlog -reportprogress 300 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/2X1MUX.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:14:52 on Oct 23,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/2X1MUX.v 
+# -- Compiling module mux_2X1
+# 
+# Top level modules:
+# 	mux_2X1
+# End time: 19:14:52 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/ADDER.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:14:52 on Oct 23,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/ADDER.v 
+# -- Compiling module ADDER
+# 
+# Top level modules:
+# 	ADDER
+# End time: 19:14:53 on Oct 23,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/ALU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:14:53 on Oct 23,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/ALU.v 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 19:14:53 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/CU.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:14:53 on Oct 23,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/CU.v 
+# -- Compiling module CU
+# 
+# Top level modules:
+# 	CU
+# End time: 19:14:53 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/DataMemory.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:14:53 on Oct 23,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/DataMemory.v 
+# -- Compiling module DataMemory
+# 
+# Top level modules:
+# 	DataMemory
+# End time: 19:14:53 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/Datapath.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:14:53 on Oct 23,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/Datapath.v 
+# -- Compiling module ALU
+# -- Compiling module DataMemory
+# -- Compiling module InstructionMemory
+# -- Compiling module MUX4_1
+# -- Compiling module REG4BIT
+# -- Compiling module REG16BIT
+# -- Compiling module RegisterFile
+# ** Warning: C:\intelFPGA\18.1\16-bit-RISC-processor-master\16-bit-RISC-processor-master\Modules\RegisterFile.v(23): (vlog-2182) 'REG16BIT' might be read before written in always_comb or always @* block.
+# -- Compiling module signExtend
+# -- Compiling module CU
+# -- Compiling module ADDER
+# -- Compiling module Datapath
+# 
+# Top level modules:
+# 	MUX4_1
+# 	REG4BIT
+# 	REG16BIT
+# 	Datapath
+# End time: 19:14:53 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vlog -reportprogress 30 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/InstructionMemory.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:14:53 on Oct 23,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/InstructionMemory.v 
+# -- Compiling module InstructionMemory
+# 
+# Top level modules:
+# 	InstructionMemory
+# End time: 19:14:53 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/MUX4_1.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:14:53 on Oct 23,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/MUX4_1.v 
+# -- Compiling module MUX4_1
+# 
+# Top level modules:
+# 	MUX4_1
+# End time: 19:14:53 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/MuxAddr.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:14:53 on Oct 23,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/MuxAddr.v 
+# -- Compiling module mux_2X1Addr
+# 
+# Top level modules:
+# 	mux_2X1Addr
+# End time: 19:14:53 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/REG4BIT.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:14:53 on Oct 23,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/REG4BIT.v 
+# -- Compiling module REG4BIT
+# 
+# Top level modules:
+# 	REG4BIT
+# End time: 19:14:53 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/REG16BIT.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:14:53 on Oct 23,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/REG16BIT.v 
+# -- Compiling module REG16BIT
+# 
+# Top level modules:
+# 	REG16BIT
+# End time: 19:14:53 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 30 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/RegisterFile.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:14:53 on Oct 23,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/RegisterFile.v 
+# -- Compiling module RegisterFile
+# ** Warning: C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/RegisterFile.v(23): (vlog-2182) 'REG16BIT' might be read before written in always_comb or always @* block.
+# 
+# Top level modules:
+# 	RegisterFile
+# End time: 19:14:53 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vlog -reportprogress 30 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/signExtend.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:14:53 on Oct 23,2025
+# vlog -reportprogress 30 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/signExtend.v 
+# -- Compiling module signExtend
+# 
+# Top level modules:
+# 	signExtend
+# End time: 19:14:53 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Test Benches/ALUTEST.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:15:03 on Oct 23,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Test Benches/ALUTEST.v 
+# -- Compiling module ALU
+# -- Compiling module ALUTEST
+# 
+# Top level modules:
+# 	ALUTEST
+# End time: 19:15:04 on Oct 23,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Test Benches/MUX4_1TEST.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:15:04 on Oct 23,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Test Benches/MUX4_1TEST.v 
+# -- Compiling module MUX4_1
+# -- Compiling module MUX4_1TEST
+# 
+# Top level modules:
+# 	MUX4_1TEST
+# End time: 19:15:04 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Test Benches/REG4BITTEST.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:15:04 on Oct 23,2025
+# vlog -reportprogress 300 -work work C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Test Benches/REG4BITTEST.v 
+# -- Compiling module REG4BIT
+# -- Compiling module REG4BITTEST
+# 
+# Top level modules:
+# 	REG4BITTEST
+# End time: 19:15:04 on Oct 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.MUX4_1TEST
+# vsim work.MUX4_1TEST 
+# Start time: 19:15:19 on Oct 23,2025
+# Loading work.MUX4_1TEST
+# Loading work.MUX4_1
+add wave *
+run -all
+# ** Note: $stop    : C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Test Benches/MUX4_1TEST.v(21)
+#    Time: 40 ns  Iteration: 0  Instance: /MUX4_1TEST
+# Break in Module MUX4_1TEST at C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Test Benches/MUX4_1TEST.v line 21
+vsim vsim work.ALUTEST
+# End time: 19:18:25 on Oct 23,2025, Elapsed time: 0:03:06
+# Errors: 0, Warnings: 0
+# vsim vsim work.ALUTEST 
+# Start time: 19:18:25 on Oct 23,2025
+# ** Error: (vsim-3170) Could not find 'vsim'.
+#         Searched libraries:
+#             C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/work
+# Error loading design
+add wave *
+# End time: 19:18:29 on Oct 23,2025, Elapsed time: 0:00:04
+# Errors: 1, Warnings: 0
+run -all
+# No Design Loaded!
+
+vsim work.ALUTEST
+# vsim work.ALUTEST 
+# Start time: 19:18:34 on Oct 23,2025
+# Loading work.ALUTEST
+# Loading work.ALU
+# ** Warning: (vsim-3017) C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Test Benches/ALUTEST.v(10): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /ALUTEST/alu File: C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Test Benches/../Modules/ALU.v
+# ** Warning: (vsim-3722) C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Test Benches/ALUTEST.v(10): [TFMPC] - Missing connection for port 'zero'.
+add wave *
+run -all
+# a=    1, b=    1
+# op=000, OUTPUT=0000000000000010
+# op=001, OUTPUT=0000000000000000
+# op=010, OUTPUT=0000000000000001
+# op=011, OUTPUT=0000000000000001
+# op=111, OUTPUT=0000000000000001
+
+vsim REG4BITTEST
+# End time: 19:19:44 on Oct 23,2025, Elapsed time: 0:01:10
+# Errors: 0, Warnings: 2
+# vsim REG4BITTEST 
+# Start time: 19:19:44 on Oct 23,2025
+# Loading work.REG4BITTEST
+# Loading work.REG4BIT
+add wave *
+run -all
+# I3=1,I2=1,I1=0,I0=0
+# OUT=1111
+# OUT=1111
+# OUT=1111
+# OUT=1111
+# A time value could not be extracted from the current line
+# Region not found: "sim:/REG4BITTEST/<anonymous>"

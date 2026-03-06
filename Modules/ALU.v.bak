@@ -1,0 +1,38 @@
+`timescale 1ns / 1ps
+
+module ALU (
+    output reg [15:0] out,
+    output reg        zero,
+    input      [15:0] a,
+    input      [15:0] b,
+    input      [2:0]  op
+);
+    always @(*) begin
+        case (op)
+            3'b000: begin // ADD
+                out  = a + b;
+                zero = (out == 16'b0);
+            end
+            3'b001: begin // SUB
+                out  = a - b;
+                zero = (out == 16'b0);
+            end
+            3'b010: begin // AND
+                out  = a & b;
+                zero = (out == 16'b0);
+            end
+            3'b011: begin // OR
+                out  = a | b;
+                zero = (out == 16'b0);
+            end
+            3'b100: begin // Logical Shift Left
+                out  = a << 1;
+                zero = (out == 16'b0);
+            end
+            default: begin
+                out  = 16'b0;
+                zero = 1'b1;
+            end
+        endcase
+    end
+endmodule

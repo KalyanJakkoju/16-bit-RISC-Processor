@@ -1,0 +1,382 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master
+vADDER
+Z1 !s110 1761227093
+!i10b 1
+!s100 EXU=gi?IS2hWBJCaG9R0>1
+IiZP99A;1Ua[][l9>^l9Be2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1507377528
+8C:\intelFPGA\18.1\16-bit-RISC-processor-master\16-bit-RISC-processor-master\Modules\ADDER.v
+FC:\intelFPGA\18.1\16-bit-RISC-processor-master\16-bit-RISC-processor-master\Modules\ADDER.v
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1761227093.000000
+Z6 !s107 C:\intelFPGA\18.1\16-bit-RISC-processor-master\16-bit-RISC-processor-master\Modules\ADDER.v|C:\intelFPGA\18.1\16-bit-RISC-processor-master\16-bit-RISC-processor-master\Modules\CU.v|C:\intelFPGA\18.1\16-bit-RISC-processor-master\16-bit-RISC-processor-master\Modules\signExtend.v|C:\intelFPGA\18.1\16-bit-RISC-processor-master\16-bit-RISC-processor-master\Modules\RegisterFile.v|C:\intelFPGA\18.1\16-bit-RISC-processor-master\16-bit-RISC-processor-master\Modules\REG16BIT.v|C:\intelFPGA\18.1\16-bit-RISC-processor-master\16-bit-RISC-processor-master\Modules\REG4BIT.v|C:\intelFPGA\18.1\16-bit-RISC-processor-master\16-bit-RISC-processor-master\Modules\MUX4_1.v|C:\intelFPGA\18.1\16-bit-RISC-processor-master\16-bit-RISC-processor-master\Modules\InstructionMemory.v|C:\intelFPGA\18.1\16-bit-RISC-processor-master\16-bit-RISC-processor-master\Modules\DataMemory.v|C:\intelFPGA\18.1\16-bit-RISC-processor-master\16-bit-RISC-processor-master\Modules\ALU.v|C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/Datapath.v|
+Z7 !s90 -reportprogress|300|-work|work|C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/Datapath.v|
+!i113 1
+Z8 o-work work
+Z9 tCvgOpt 0
+n@a@d@d@e@r
+vALU
+Z10 !s110 1761227103
+!i10b 1
+!s100 ?P_PU;Y7fzbcl__nmEehT0
+IVR:Pf0_Q1o1n@aOQX1dXj1
+R2
+R0
+R3
+8C:\intelFPGA\18.1\16-bit-RISC-processor-master\16-bit-RISC-processor-master\Test Benches\..\Modules\ALU.v
+FC:\intelFPGA\18.1\16-bit-RISC-processor-master\16-bit-RISC-processor-master\Test Benches\..\Modules\ALU.v
+L0 1
+R4
+r1
+!s85 0
+31
+Z11 !s108 1761227103.000000
+Z12 !s107 C:\intelFPGA\18.1\16-bit-RISC-processor-master\16-bit-RISC-processor-master\Test Benches\..\Modules\ALU.v|C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Test Benches/ALUTEST.v|
+Z13 !s90 -reportprogress|300|-work|work|C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Test Benches/ALUTEST.v|
+!i113 1
+R8
+R9
+n@a@l@u
+vALUTEST
+R10
+!i10b 1
+!s100 A@6:^PIRTCR5@a0S?T2c?3
+I2]dA`Jm7aD;McmAlAD_Om3
+R2
+R0
+w1761225057
+8C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Test Benches/ALUTEST.v
+FC:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Test Benches/ALUTEST.v
+L0 4
+R4
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 1
+R8
+R9
+n@a@l@u@t@e@s@t
+vCU
+R1
+!i10b 1
+!s100 oO3@h0b@jz0Ra;SNE<3L[2
+IPM8]b50aU?XAL7?84jHZY3
+R2
+R0
+R3
+8C:\intelFPGA\18.1\16-bit-RISC-processor-master\16-bit-RISC-processor-master\Modules\CU.v
+FC:\intelFPGA\18.1\16-bit-RISC-processor-master\16-bit-RISC-processor-master\Modules\CU.v
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+n@c@u
+vDataMemory
+R1
+!i10b 1
+!s100 DB5PiC;1F97az1OKHFfY00
+If^O_T0Yi6nozz=?b<L34H1
+R2
+R0
+R3
+8C:\intelFPGA\18.1\16-bit-RISC-processor-master\16-bit-RISC-processor-master\Modules\DataMemory.v
+FC:\intelFPGA\18.1\16-bit-RISC-processor-master\16-bit-RISC-processor-master\Modules\DataMemory.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+n@data@memory
+vDatapath
+R1
+!i10b 1
+!s100 FC>WBB`CF_9V6lCeR7Vc71
+Ii4I0ik_ga^S`E:[]SoD_K1
+R2
+R0
+w1761154294
+8C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/Datapath.v
+FC:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/Datapath.v
+L0 12
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+n@datapath
+vInstructionMemory
+R1
+!i10b 1
+!s100 AACTj=Q]3Zg1R3[[8U@Tj0
+IF0j79mhIjW9ZOLk?gcO@C3
+R2
+R0
+R3
+8C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/InstructionMemory.v
+FC:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/InstructionMemory.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/InstructionMemory.v|
+!s90 -reportprogress|30|-work|work|C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/InstructionMemory.v|
+!i113 1
+R8
+R9
+n@instruction@memory
+vmux1
+!s110 1761226715
+!i10b 1
+!s100 ClU:]z2lYI<8Rn<?;5Z;f3
+I672RRSZ2PalNTaOafiCda2
+R2
+R0
+R3
+8Test Benches\..\Modules\MUX4_1.v
+FTest Benches\..\Modules\MUX4_1.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1761226715.000000
+!s107 Test Benches\..\Modules\MUX4_1.v|Test Benches/MUX4_1TEST.v|
+!s90 -reportprogress|300|Test Benches/MUX4_1TEST.v|
+!i113 1
+R9
+vMUX4_1
+Z14 !s110 1761227104
+!i10b 1
+!s100 bgo04WAORS]2YYcSb>9GB0
+I2_i63i4>`PGzz60Kg2[X;0
+R2
+R0
+w1761227009
+8C:\intelFPGA\18.1\16-bit-RISC-processor-master\16-bit-RISC-processor-master\Test Benches\..\Modules\MUX4_1.v
+FC:\intelFPGA\18.1\16-bit-RISC-processor-master\16-bit-RISC-processor-master\Test Benches\..\Modules\MUX4_1.v
+L0 3
+R4
+r1
+!s85 0
+31
+Z15 !s108 1761227104.000000
+Z16 !s107 C:\intelFPGA\18.1\16-bit-RISC-processor-master\16-bit-RISC-processor-master\Test Benches\..\Modules\MUX4_1.v|C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Test Benches/MUX4_1TEST.v|
+Z17 !s90 -reportprogress|300|-work|work|C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Test Benches/MUX4_1TEST.v|
+!i113 1
+R8
+R9
+n@m@u@x4_1
+vMUX4_1TEST
+R14
+!i10b 1
+!s100 PCiZ9g2^jne^kc6]lGz4a1
+IPfodWmgMgib<ZU;<bbHgW3
+R2
+R0
+w1761227031
+8C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Test Benches/MUX4_1TEST.v
+FC:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Test Benches/MUX4_1TEST.v
+L0 4
+R4
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R8
+R9
+n@m@u@x4_1@t@e@s@t
+vmux_2X1
+!s110 1761227092
+!i10b 1
+!s100 cFL^6a1Mf]i[5jX4MdE8W2
+IN<m`Gz0;B?DBN1D<^oSIG2
+R2
+R0
+R3
+8C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/2X1MUX.v
+FC:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/2X1MUX.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1761227092.000000
+!s107 C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/2X1MUX.v|
+!s90 -reportprogress|300|-work|work|C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/2X1MUX.v|
+!i113 1
+R8
+R9
+nmux_2@x1
+vmux_2X1Addr
+R1
+!i10b 1
+!s100 nMN<]HTi1QS;cE^O^fjg]1
+I8ReHfLR8i^EH5[EIALBn@3
+R2
+R0
+R3
+8C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/MuxAddr.v
+FC:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/MuxAddr.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/MuxAddr.v|
+!s90 -reportprogress|30|-work|work|C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/MuxAddr.v|
+!i113 1
+R8
+R9
+nmux_2@x1@addr
+vREG16BIT
+R1
+!i10b 1
+!s100 924LKEko<k;a?G:^G569B3
+Im<98eL`U[WO7kBZlGD88n1
+R2
+R0
+R3
+8C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/REG16BIT.v
+FC:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/REG16BIT.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/REG16BIT.v|
+!s90 -reportprogress|30|-work|work|C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/REG16BIT.v|
+!i113 1
+R8
+R9
+n@r@e@g16@b@i@t
+vREG4BIT
+R14
+!i10b 1
+!s100 _=21i<d0>m73HB=H9^P3J2
+IaV_nHT2nN6[E9F82Pc=CT3
+R2
+R0
+R3
+8C:\intelFPGA\18.1\16-bit-RISC-processor-master\16-bit-RISC-processor-master\Test Benches\..\Modules\REG4BIT.v
+FC:\intelFPGA\18.1\16-bit-RISC-processor-master\16-bit-RISC-processor-master\Test Benches\..\Modules\REG4BIT.v
+L0 2
+R4
+r1
+!s85 0
+31
+R15
+Z18 !s107 C:\intelFPGA\18.1\16-bit-RISC-processor-master\16-bit-RISC-processor-master\Test Benches\..\Modules\REG4BIT.v|C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Test Benches/REG4BITTEST.v|
+Z19 !s90 -reportprogress|300|-work|work|C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Test Benches/REG4BITTEST.v|
+!i113 1
+R8
+R9
+n@r@e@g4@b@i@t
+vREG4BITTEST
+R14
+!i10b 1
+!s100 9A=:CBjSno@D@kc>WY?zS0
+I@6ze^FQRTzl4P5JfP2TXQ2
+R2
+R0
+w1761225055
+8C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Test Benches/REG4BITTEST.v
+FC:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Test Benches/REG4BITTEST.v
+L0 4
+R4
+r1
+!s85 0
+31
+R15
+R18
+R19
+!i113 1
+R8
+R9
+n@r@e@g4@b@i@t@t@e@s@t
+vRegisterFile
+R1
+!i10b 1
+!s100 [V<KFXnkmYY3[J<RKTDF^1
+IhS>^F6<PR_<4Hid6?MhXb2
+R2
+R0
+R3
+8C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/RegisterFile.v
+FC:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/RegisterFile.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/RegisterFile.v|
+!s90 -reportprogress|30|-work|work|C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/RegisterFile.v|
+!i113 1
+R8
+R9
+n@register@file
+vsignExtend
+R1
+!i10b 1
+!s100 LAYLaN[Q`L>2jbjS8VCzb0
+I>R2O`70V<iCQ@GZ:FkzM?1
+R2
+R0
+R3
+8C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/signExtend.v
+FC:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/signExtend.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/signExtend.v|
+!s90 -reportprogress|30|-work|work|C:/intelFPGA/18.1/16-bit-RISC-processor-master/16-bit-RISC-processor-master/Modules/signExtend.v|
+!i113 1
+R8
+R9
+nsign@extend

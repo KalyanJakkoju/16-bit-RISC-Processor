@@ -1,0 +1,126 @@
+`timescale 1ns / 1ps
+
+// Include all dependent modules
+`include "ALU.v"
+`include "DataMemory.v"
+`include "InstructionMemory.v"
+`include "RegisterFile.v"
+`include "signExtend.v"
+`include "CU.v"
+`include "ADDER.v"
+
+module Datapath (
+    input  wire CLK,
+    input  wire RESET
+);
+
+    // ----------------------------
+    // Internal Wires and Registers
+    // ----------------------------
+    wire [15:0] instruction;
+    wire [15:0] readData1, readData2;
+    wire [15:0] aluResult, memData, signExtImm;
+    wire [15:0] pcAddr;
+
+    wire [3:0] opcode, rs, rt, rd;
+    wire zeroFlag;
+    wire memRead, memWrite, memToReg, regWrite, aluSrc, jump, branch;
+    wire [2:0] aluOp;
+    wire regDest;
+
+    reg [15:0] pc;
+
+    // ----------------------------
+    // Program Counter Update Logic
+    // ----------------------------
+    always @(posedge CLK or posedge RESET) begin
+        if (RESET)
+            pc <= 16'd0;
+        else
+            pc <= pc + 16'd2; // increment PC
+    end
+
+    assign pcAddr = pc;
+
+    // ----------------------------
+    // Instruction Memory
+    // ----------------------------
+    InstructionMemory imem (
+        .insAddr(pcAddr),     // input from PC
+        .out(instruction)     // output instruction
+    );
+
+    // ----------------------------
+    // Control Unit
+    // ----------------------------
+    CU control_unit (
+        .opcode(opcode),
+        .regDest(regDest),
+        .jump(jump),
+        .branch(branch),
+        .memRead(memRead),
+        .memToReg(memToReg),
+        .ALUOp(aluOp),
+        .memWrite(memWrite),
+        .ALUSrc(aluSrc),
+        .regWrite(regWrite)
+    );
+
+    // ----------------------------
+    // Instruction Decode
+    // ----------------------------
+    assign opcode = instruction[15:12];
+    assign rs     = instruction[11:8];
+    assign rt     = instruction[7:4];
+    assign rd     = instruction[3:0];
+
+    // ----------------------------
+    // Sign Extend (12-bit input ? 16-bit output)
+    // ----------------------------
+    signExtend sign_ext_inst (
+        .inp(instruction[11:0]),
+        .out(signExtImm)
+    );
+
+    // ----------------------------
+    // Register File
+    // Ports: (clk, clrbar, load, Aaddr, Baddr, Caddr, C, A, B)
+    // ----------------------------
+    RegisterFile regfile_inst (
+        .clk(CLK),
+        .clrbar(~RESET),     // active-low clear
+        .load(regWrite),     // write enable
+        .Aaddr(rs),          // read register 1
+        .Baddr(rt),          // read register 2
+        .Caddr(rd),          // write register
+        .C(memData),         // write data (or ALU result)
+        .A(readData1),       // output data 1
+        .B(readData2)        // output data 2
+    );
+
+    // ----------------------------
+    // ALU
+    // ----------------------------
+    ALU alu_inst (
+        .out(aluResult),
+        .zero(zeroFlag),
+        .a(readData1),
+        .b(readData2),
+        .op(aluOp)
+    );
+
+    // ----------------------------
+    // Data Memory
+    // Ports: (clk, addr, datain, memRead, memWrite, dataout)
+    // ----------------------------
+    DataMemory data_mem_inst (
+        .clk(CLK),
+        .addr(aluResult[3:0]),  // 4-bit address (16 words)
+        .datain(readData2),     // data to write
+        .memRead(memRead),
+        .memWrite(memWrite),
+        .dataout(memData)       // data read
+    );
+
+endmodule
+

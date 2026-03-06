@@ -1,0 +1,30 @@
+// 16 registers of 16-bit each
+module RegisterFile (
+    input              clk,
+    input              clrbar,   // active-low synchronous clear
+    input              load,     // write enable (when high and on posedge clk)
+    input  [3:0]       Aaddr,
+    input  [3:0]       Baddr,
+    input  [3:0]       Caddr,
+    input  [15:0]      C,        // write data
+    output [15:0]      A,
+    output [15:0]      B
+);
+    reg [15:0] REG16BIT [0:15];
+    integer i;
+
+    // combinational read ports
+    assign A = REG16BIT[Aaddr];
+    assign B = REG16BIT[Baddr];
+
+    // synchronous write & synchronous active-low clear
+    always @(posedge clk) begin
+        if (!clrbar) begin
+            for (i = 0; i < 16; i = i + 1) REG16BIT[i] <= 16'b0;
+        end else begin
+            if (load) begin
+                REG16BIT[Caddr] <= C;
+            end
+        end
+    end
+endmodule
