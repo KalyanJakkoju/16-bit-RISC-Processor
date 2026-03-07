@@ -13,9 +13,6 @@ module Datapath (
     input  wire RESET
 );
 
-    // ----------------------------
-    // Internal Signals
-    // ----------------------------
     wire [15:0] instruction;
     wire [15:0] readData1, readData2;
     wire [15:0] aluResult, memData, signExtImm;
@@ -29,9 +26,7 @@ module Datapath (
 
     reg [15:0] pc;
 
-    // ----------------------------
     // Program Counter
-    // ----------------------------
     always @(posedge CLK or posedge RESET) begin
         if (RESET)
             pc <= 16'd0;
@@ -40,17 +35,14 @@ module Datapath (
     end
     assign pcAddr = pc;
 
-    // ----------------------------
     // Instruction Memory
-    // ----------------------------
     InstructionMemory imem (
         .insAddr(pcAddr),
         .out(instruction)
     );
 
-    // ----------------------------
+    
     // Control Unit
-    // ----------------------------
     CU control_unit (
         .opcode(opcode),
         .regDest(regDest),
@@ -64,25 +56,19 @@ module Datapath (
         .regWrite(regWrite)
     );
 
-    // ----------------------------
     // Decode
-    // ----------------------------
     assign opcode = instruction[15:12];
     assign rs     = instruction[11:8];
     assign rt     = instruction[7:4];
     assign rd     = instruction[3:0];
 
-    // ----------------------------
     // Sign Extend
-    // ----------------------------
     signExtend sign_ext_inst (
         .inp(instruction[11:0]),
         .out(signExtImm)
     );
 
-    // ----------------------------
     // Register File
-    // ----------------------------
     RegisterFile regfile_inst (
         .clk(CLK),
         .clrbar(~RESET),
@@ -95,9 +81,7 @@ module Datapath (
         .B(readData2)
     );
 
-    // ----------------------------
     // ALU
-    // ----------------------------
     ALU alu_inst (
         .out(aluResult),
         .zero(zeroFlag),
@@ -106,9 +90,7 @@ module Datapath (
         .op(aluOp)
     );
 
-    // ----------------------------
     // Data Memory
-    // ----------------------------
     DataMemory data_mem_inst (
         .clk(CLK),
         .addr(aluResult[3:0]),
