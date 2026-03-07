@@ -1,5 +1,3 @@
-// Simple data memory: synchronous write on clk, combinational read.
-// addr is 4-bit (16 words). Adjust width if you want bigger memory.
 module DataMemory (
     input              clk,
     input      [3:0]   addr,      // 4-bit address for 16 words
